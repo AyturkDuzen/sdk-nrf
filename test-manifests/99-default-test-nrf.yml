@@ -11,7 +11,7 @@ manifest:
     - name: test_nrf
       remote: ncs-test
       repo-path: test-fw-nrfconnect-nrf
-      revision: master
+      revision: sdk-nrf-pr-23979
       import:
         name-blocklist: [sdk-nrf]
       userdata:
